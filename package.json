@@ -1,0 +1,11 @@
+{
+  "name": "artnetjs",
+  "description": "Artnet Node and Controller for nodejs",
+  "author": "Christian Blaschke <mail@platdesign.de>",
+  "version": "0.0.0",
+  "dependencies": {
+    "bipro": "0.0.2",
+    "ip": "^1.1.5"
+  },
+  "repository": ""
+}
