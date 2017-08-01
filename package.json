@@ -1,11 +1,21 @@
 {
   "name": "artnetjs",
-  "description": "Artnet Node and Controller for nodejs",
+  "description": "Artnet Node and Controller implementation for Nodejs",
   "author": "Christian Blaschke <mail@platdesign.de>",
   "version": "0.0.0",
   "dependencies": {
-    "bipro": "0.0.2",
+    "bipro": "^0.0.3",
     "ip": "^1.1.5"
   },
-  "repository": ""
+  "repository": "git@github.com:platdesign/artnetjs.git",
+  "scripts": {
+    "test": "mocha",
+    "test:w": "mocha -w",
+    "release:patch": "npm-release patch"
+  },
+  "devDependencies": {
+    "code": "^4.1.0",
+    "mocha": "^3.5.0",
+    "npm-release": "^1.0.0"
+  }
 }
