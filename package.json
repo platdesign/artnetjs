@@ -4,7 +4,7 @@
   "author": "Christian Blaschke <mail@platdesign.de>",
   "version": "0.0.4",
   "dependencies": {
-    "bipro": "0.0.3",
+    "bipro": "0.0.7",
     "ip": "^1.1.5"
   },
   "repository": "git@github.com:platdesign/artnetjs.git",
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "code": "^4.1.0",
+    "csv": "^1.1.1",
     "mocha": "^3.5.0",
     "npm-release": "^1.0.0"
   }
